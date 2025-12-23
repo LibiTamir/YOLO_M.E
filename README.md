@@ -8,10 +8,10 @@ The model is intended for inference and demonstration purposes and can be applie
 ## Demo
 
 ### Original video
-[Input video](demo/input.mp4)
+[Input video](demo/input_vid.mp4)
 
 ### Model output (annotated)
-[Annotated output video](demo/output_annotated.mp4)
+[Annotated output video](demo/output_vid.avi)
 
 Model overview
 
@@ -101,3 +101,4 @@ Department of Entomology
 The Hebrew University of Jerusalem
 
 libi.tamir@mail.huji.ac.il
+
