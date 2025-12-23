@@ -1,4 +1,4 @@
-YOLO_M.E: BSF Mating Event Detector
+## YOLO_M.E: BSF Mating Event Detector
 
 YOLO-based detection of mating-related events in Black Soldier Fly (Hermetia illucens) cage recordings
 
@@ -7,13 +7,13 @@ The model is intended for inference and demonstration purposes and can be applie
 
 ## Demo
 
-### Original video
+# Original video
 [Input video](demo/input_vid.mp4)
 
-### Model output (annotated)
+# Model output (annotated)
 [Annotated output video](demo/output_vid.avi)
 
-Model overview
+## Model overview
 
 Architecture: YOLO (Ultralytics)
 
@@ -42,7 +42,7 @@ The trained model weights (`best.pt`, ~109 MB) are provided via **GitHub Release
 2. Download `best.pt`
 3. Place the file in: weights/best.pt
 
-Installation
+## Installation
 
 This project relies on the Ultralytics YOLO framework.
 
@@ -76,7 +76,7 @@ bsf-mating-yolo/
 ├── scripts/
 │   └── README.md
 
-Notes
+## Notes
 
 Recommended confidence threshold: 0.8
 
@@ -84,21 +84,20 @@ Detection performance depends on image/video quality, lighting conditions, and c
 
 The model was trained and evaluated under controlled experimental conditions
 
-Citation
+## Citation
 
-If you use this model in academic work, please cite the associated thesis (Tamir L., 2025. Computer vision and the Black Soldier Fly: behavioral tracking for reproductive success).
+If you use this model in academic work, please cite the associated thesis:
 
-License
-
-Specify the license under which this model and repository are released.
+Tamir, L. (2025). *Computer vision and the Black Soldier Fly: behavioral tracking for reproductive success*. Master’s thesis.
 
 Contact
 
-For questions or collaboration inquiries, please contact:
+For questions or inquiries, please contact:
 
 Libi Tamir 
 Department of Entomology
 The Hebrew University of Jerusalem
 
 libi.tamir@mail.huji.ac.il
+
 
