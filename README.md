@@ -2,7 +2,7 @@
 
 YOLO-based detection of mating-related events in Black Soldier Fly (Hermetia illucens) cage recordings
 
-This repository provides a trained YOLO object detection model for identifying mating-related events in video recordings of black soldier fly cages.
+This repository provides a trained YOLO object detection model for identifying mating events in imae & video recordings of Black Soldier Fly cages.
 The model is intended for inference and demonstration purposes and can be applied directly to video files & images.
 
 ## Demo
@@ -99,5 +99,6 @@ Department of Entomology
 The Hebrew University of Jerusalem
 
 libi.tamir@mail.huji.ac.il
+
 
 
