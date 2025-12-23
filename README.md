@@ -5,13 +5,13 @@ YOLO-based detection of mating-related events in Black Soldier Fly (Hermetia ill
 This repository provides a trained YOLO object detection model for identifying mating-related events in video recordings of black soldier fly cages.
 The model is intended for inference and demonstration purposes and can be applied directly to video files & images.
 
-Demo
+## Demo
 
-input_vid
+### Original video
+[Input video](demo/input.mp4)
 
-Model output (annotated)
-
-output_vid
+### Model output (annotated)
+[Annotated output video](demo/output_annotated.mp4)
 
 Model overview
 
@@ -33,19 +33,14 @@ Output:
 
 Annotated video or image with detected events
 
-Download model weights
+## Download model weights
 
-The trained model weights (best.pt, ~109 MB) exceed GitHub’s file size limit and are therefore provided via GitHub Releases.
+The trained model weights (`best.pt`, ~109 MB) are provided via **GitHub Releases**.
 
-Steps
-
-Go to the Releases section of this repository
-
-Download best.pt
-
-Place the file in the following folder path:
-
-weights/best.pt
+### Steps
+1. Go to the **Releases** section of this repository
+2. Download `best.pt`
+3. Place the file in: weights/best.pt
 
 Installation
 
@@ -104,4 +99,5 @@ For questions or collaboration inquiries, please contact:
 Libi Tamir 
 Department of Entomology
 The Hebrew University of Jerusalem
+
 libi.tamir@mail.huji.ac.il
