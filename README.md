@@ -120,8 +120,4 @@ Libi Tamir
 Department of Entomology
 The Hebrew University of Jerusalem
 
-libi.tamir@mail.huji.ac.il
-
-
-
-
+libitamir@gmail.com
