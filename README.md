@@ -52,7 +52,7 @@ pip install ultralytics opencv-python
 Note: PyTorch will be installed automatically by Ultralytics if not already present.
 GPU acceleration is optional but recommended for faster inference.
 
-Running inference
+### Running inference
 Inference on a video
 yolo predict model=weights/best.pt source=demo/input.mp4 conf=0.25 save=True
 
@@ -84,6 +84,28 @@ Detection performance depends on image/video quality, lighting conditions, and c
 
 The model was trained and evaluated under controlled experimental conditions
 
+## Model performance
+
+### Precision and recall behavior
+
+The model exhibits a clear and stable tradeoff between precision and recall as a function of the confidence threshold.
+
+![Precision–Confidence curve](metrics/precision_confidence.png)
+![Recall–Confidence curve](metrics/recall_confidence.png)
+
+At low confidence thresholds, recall is high but precision is reduced due to false positives. Precision increases monotonically with confidence, reaching near-perfect values at high thresholds, while recall decreases accordingly.
+
+Based on these curves, a confidence threshold of **0.25–0.40** provides a balanced tradeoff for general use.
+
+---
+
+### Training diagnostics (supplementary)
+
+![Training and validation metrics](metrics/training_curves.png)
+
+Training and validation losses decrease smoothly with no evidence of divergence, and mAP stabilizes toward the end of training, indicating convergence without overfitting.
+
+
 ## Citation
 
 If you use this model in academic work, please cite the associated thesis:
@@ -99,6 +121,7 @@ Department of Entomology
 The Hebrew University of Jerusalem
 
 libi.tamir@mail.huji.ac.il
+
 
 
 
